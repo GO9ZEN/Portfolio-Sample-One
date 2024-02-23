@@ -1,0 +1,215 @@
+/**********************************************************/
+/****************** skills-SECTION ******************/
+/**********************************************************/
+.skills-section {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    /* background: #2A0944; */
+    background: #003F5C ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e4e4e4;
+}
+
+.skills-section-size {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+    /* background: yellow; */
+}
+
+.skills-part-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.skills-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e4e4e4;
+}
+
+.skills-header span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.skills-part-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background: yellow; */
+}
+
+/****************************************/
+/***** skills-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .skills-section {
+        min-height: 500px;
+        padding: 30px 0;
+    }
+    
+    .skills-section-size {
+        width: 84%;
+        gap: 36px;
+        margin: 40px 0;
+    }
+    
+    .skills-part-one {
+        gap: 23px;
+    }
+    
+    .skills-header {
+        gap: 7px;
+    }
+    
+    .skills-header span {
+        font-size: 36px;
+    }
+
+    .skills-part-two {
+        gap: 40px;
+    }
+}
+
+/****************************************/
+/***** skills-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .skills-section {
+        min-height: 400px;
+        padding: 26px 0;
+    }
+    
+    .skills-section-size {
+        width: 88%;
+        gap: 32px;
+        margin: 30px 0;
+    }
+    
+    .skills-part-one {
+        gap: 21px;
+    }
+    
+    .skills-header {
+        gap: 6px;
+    }
+    
+    .skills-header span {
+        font-size: 32px;
+    }
+
+    .skills-part-two {
+        gap: 30px;
+    }
+}
+
+/****************************************/
+/***** skills-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .skills-section {
+        min-height: 300px;
+        padding: 22px 0;
+    }
+    
+    .skills-section-size {
+        width: 92%;
+        gap: 28px;
+        margin: 20px 0;
+    }
+    
+    .skills-part-one {
+        gap: 19px;
+    }
+    
+    .skills-header {
+        gap: 5px;
+    }
+    
+    .skills-header span {
+        font-size: 28px;
+    }
+
+    .skills-part-two {
+        gap: 20px;
+    }
+}
+
+/****************************************/
+/***** skills-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .skills-section {
+        min-height: 250px;
+        padding: 20px 0;
+    }
+    
+    .skills-section-size {
+        width: 96%;
+        gap: 24px;
+        margin: 15px 0;
+    }
+    
+    .skills-part-one {
+        gap: 17px;
+    }
+    
+    .skills-header {
+        gap: 4px;
+    }
+    
+    .skills-header span {
+        font-size: 24px;
+    }
+
+    .skills-part-two {
+        gap: 15px;
+    }
+}
+
+/****************************************/
+/***** skills-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .skills-section {
+        min-height: 200px;
+        padding: 16px 0;
+    }
+    
+    .skills-section-size {
+        width: 98%;
+        gap: 20px;
+        margin: 15px 0;
+    }
+    
+    .skills-part-one {
+        gap: 16px;
+    }
+    
+    .skills-header {
+        gap: 4px;
+    }
+    
+    .skills-header span {
+        font-size: 20px;
+    }
+
+    .skills-part-two {
+        gap: 15px;
+    }
+}

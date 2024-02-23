@@ -1,0 +1,181 @@
+/**********************************************************/
+/****************** SERVICES-SECTION ******************/
+/**********************************************************/
+.services-section {
+    display: flex;
+    min-height: 400px;
+    width: 100%;
+    background: #11698E;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e4e4e4;
+    /* gap: 25px; */
+}
+
+.services-part {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.services-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e4e4e4;
+}
+
+.services-header span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.services-part-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background: yellow; */
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .services-section {
+        min-height: 350px;
+    }
+    
+    .services-part {
+        gap: 36px;
+        width: 84%;
+        margin: 40px 0;
+    }
+    
+    .services-header {
+        gap: 7px;
+    }
+    
+    .services-header span {
+        font-size: 45px;
+    }
+
+    .services-part-two {
+        gap: 40px;
+    }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .services-section {
+        min-height: 300px;
+    }
+    
+    .services-part {
+        gap: 32px;
+        width: 88%;
+        margin: 30px 0;
+    }
+    
+    .services-header {
+        gap: 6px;
+    }
+    
+    .services-header span {
+        font-size: 40px;
+    }
+
+    .services-part-two {
+        gap: 30px;
+    }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .services-section {
+        min-height: 250px;
+    }
+    
+    .services-part {
+        gap: 28px;
+        width: 92%;
+        margin: 20px 0;
+    }
+    
+    .services-header {
+        gap: 5px;
+    }
+    
+    .services-header span {
+        font-size: 35px;
+    }
+
+    .services-part-two {
+        gap: 20px;
+    }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .services-section {
+        min-height: 200px;
+    }
+    
+    .services-part {
+        gap: 24px;
+        width: 96%;
+        margin: 15px 0;
+    }
+    
+    .services-header {
+        gap: 4px;
+    }
+    
+    .services-header span {
+        font-size: 25px;
+    }
+
+    .services-part-two {
+        gap: 15px;
+    }
+}
+
+/****************************************/
+/***** SERVICES-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .services-section {
+        min-height: 150px;
+    }
+    
+    .services-part {
+        gap: 20px;
+        width: 98%;
+        margin: 15px 0;
+    }
+    
+    .services-header {
+        gap: 4px;
+    }
+    
+    .services-header span {
+        font-size: 20px;
+    }
+
+    .services-part-two {
+        gap: 15px;
+    }
+}

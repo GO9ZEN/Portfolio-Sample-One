@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #e4e4e4;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+ font-size: 36px;
+ font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.AnyClassForContainer {
+    position: fixed;
+    right: -100px;
+    bottom: 30px;
+    transition: right 0.5s;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: #dd1b16;
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.AnyClassForContainer i {
+    font-size: 30px;
+}
+
+.AnyClassForContainer:hover {
+    transform: translateY(-2px);
+    background: #dd1b16;
+    box-shadow: 0 0 5px #dd1b16,
+                0 0 25px #dd1b16,
+                0 0 50px #dd1b16,
+                0 0 200px #dd1b16;
+}
+
+.AnyClassForTransition {
+    right: 30px;
+}
+
+.hr-part {
+    margin-top: 8px;
+    height: 4px;
+    width:  300px;
+    background: #dd1b16;
+}
+
+/****************************************/
+/***** HEADER - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 31px;
+    }
+    
+    h3 {
+        font-size: 27px;
+    }
+    
+    h4 {
+        font-size: 23px;
+    }
+    
+    h5 {
+        font-size: 19px;
+    }
+    
+    h6 {
+        font-size: 15px;
+    }
+    
+    span {
+        font-size: 19px;
+    }
+    
+    a {
+        font-size: 19px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+
+    .hr-part {
+        margin-top: 7px;
+        width:  250px;
+    }
+
+    .AnyClassForContainer {
+        right: -90px;
+        bottom: 32px;
+        padding: 9px;
+        height: 43px;
+        width: 43px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 28px;
+    }
+    
+    .AnyClassForTransition {
+        right: 28px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    h1 {
+        font-size: 34px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    h4 {
+        font-size: 22px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+    
+    h6 {
+        font-size: 14px;
+    }
+    
+    span {
+        font-size: 18px;
+    }
+    
+    a {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    .hr-part {
+        margin-top: 6px;
+        width:  200px;
+    }
+
+    .AnyClassForContainer {
+        right: -80px;
+        bottom: 34px;
+        padding: 8px;
+        height: 41px;
+        width: 41px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 26px;
+    }
+    
+    .AnyClassForTransition {
+        right: 26px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (0px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 33px;
+    }
+    
+    h2 {
+        font-size: 29px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    
+    h4 {
+        font-size: 21px;
+    }
+    
+    h5 {
+        font-size: 17px;
+    }
+    
+    h6 {
+        font-size: 13px;
+    }
+    
+    span {
+        font-size: 17px;
+    }
+    
+    a {
+        font-size: 17px;
+    }
+    
+    p {
+        font-size: 13px;
+    }
+
+    .hr-part {
+        margin-top: 5px;
+        width:  120px;
+    }
+
+    .AnyClassForContainer {
+        right: -70px;
+        bottom: 24px;
+        padding: 7px;
+        height: 39px;
+        width: 39px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 24px;
+    }
+    
+    .AnyClassForTransition {
+        right: 24px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (0px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+    
+    h6 {
+        font-size: 12px;
+    }
+    
+    span {
+        font-size: 16px;
+    }
+    
+    a {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+
+    .hr-part {
+        margin-top: 4px;
+        width:  80px;
+    }
+
+    .AnyClassForContainer {
+        right: -50px;
+        bottom: 24px;
+        padding: 5px;
+        height: 36px;
+        width: 36px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 20px;
+    }
+    
+    .AnyClassForTransition {
+        right: 20px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    h6 {
+        font-size: 10px;
+    }
+    
+    span {
+        font-size: 14px;
+    }
+    
+    a {
+        font-size: 14px;
+    }
+    
+    p {
+        font-size: 10px;
+    }
+
+    .hr-part {
+        margin-top: 4px;
+        width:  60px;
+    }
+
+    .AnyClassForContainer {
+        right: -40px;
+        bottom: 26px;
+        padding: 4px;
+        height: 34px;
+        width: 34px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 18px;
+    }
+    
+    .AnyClassForTransition {
+        right: 12px;
+    }
+}

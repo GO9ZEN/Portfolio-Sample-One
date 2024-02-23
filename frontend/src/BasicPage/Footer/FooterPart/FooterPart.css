@@ -1,0 +1,35 @@
+/**********************************************************/
+/****************** FOOTER-second-part-SECTION ******************/
+/**********************************************************/
+.footer-second-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1b1b1b;
+    height: 50px;
+    width: 100%;
+    color: #a8a8a8;
+}
+
+.footer-second-part span {
+    color: #a8a8a8;
+}
+
+/****************************************/
+/***** FOOTER-second-part-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .footer-second-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #1b1b1b;
+        height: 40px;
+        width: 100%;
+        color: #a8a8a8;
+    }
+
+    /* .footer-second-part span {
+        font-size: 12px;
+    } */
+}

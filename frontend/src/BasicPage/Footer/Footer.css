@@ -1,0 +1,352 @@
+/**********************************************************/
+/****************** FOOTER ******************/
+/**********************************************************/
+.footer {
+    background: #1b1b1b;
+    width: 100%;
+    height: auto;
+    /* padding: 50px 100px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-part {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    /* background: #dd1b16; */
+    margin: 50px 50px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.sign-and-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sign-and-info h4 {
+    font-weight: 500;
+}
+
+.sign-and-info-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-and-info-anchor {
+    display: flex;
+    gap: 20px;
+}
+
+.sign-and-info button {
+    background: #11698E;
+    height: 50px;
+    width: 180px;
+    border: 1px solid #11698E;
+    border-radius: 10px;
+    color: #e4e4e4;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+}
+
+.sign-and-info button:hover {
+    background: #023e8a;
+    border: 1px solid #023e8a;
+    transition: 0.5s all ease-out;
+}
+
+.sign-and-info-anchor {
+    display: flex;
+    gap: 25px;
+}
+
+.sign-and-info-anchor i {
+    font-size: 40px;
+    cursor: pointer;
+    color: #e4e4e4;
+    transition: all 0.4s ease;
+}
+
+.sign-and-info-anchor i:hover {
+    transform: translateY(-2px);
+    color: #11698E;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quick-links-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-links-part a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.quick-links-part a:hover {
+    color: #11698E;
+}
+
+.quick-links h4 {
+    color: #dd1b16;
+    font-weight: 500;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-and-span span {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-and-span i {
+    color: #11698E;
+}
+
+.contact-footer-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .quick-links h4::before, .contact-footer h4::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    background: #dd1b16;
+} */
+
+.contact-footer h4 {
+    color: #dd1b16;
+    font-weight: 500;
+}
+
+/* .contact-footer h4::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: #dd1b16;
+} */
+
+/****************************************/
+/***** FOOTER - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .footer-part {
+        margin: 40px 40px;
+        gap: 40px;
+    }
+
+    .sign-and-info {
+        gap: 29px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 19px;
+    }
+    
+    .sign-and-info button {
+        height: 46px;
+        width: 170px;
+        font-size: 19px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 24px;
+    }
+    
+    .sign-and-info-anchor i {
+        font-size: 38px;
+    }
+    
+    .quick-links {
+        gap: 19px;
+    }
+    
+    .contact-footer {
+        gap: 19px;
+    }
+}   
+
+/****************************************/
+/***** FOOTER - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .footer-part {
+        margin: 30px 30px;
+        gap: 30px;
+    }
+
+    .sign-and-info {
+        gap: 28px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 18px;
+    }
+    
+    .sign-and-info button {
+        height: 42px;
+        width: 160px;
+        font-size: 18px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 23px;
+    }
+    
+    .sign-and-info-anchor i {
+        font-size: 36px;
+    }
+    
+    .quick-links {
+        gap: 18px;
+    }
+    
+    .contact-footer {
+        gap: 18px;
+    }
+}
+
+/****************************************/
+/***** FOOTER - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .footer-part {
+        margin: 20px 20px;
+        gap: 20px;
+    }
+
+    .sign-and-info {
+        gap: 27px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 17px;
+    }
+    
+    .sign-and-info button {
+        height: 38px;
+        width: 150px;
+        font-size: 17px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 22px;
+    }
+    
+    .sign-and-info-anchor i {
+        font-size: 34px;
+    }
+    
+    .quick-links {
+        gap: 17px;
+    }
+    
+    .contact-footer {
+        gap: 17px;
+    }
+}
+
+/****************************************/
+/***** FOOTER - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .footer-part {
+        margin: 20px 20px;
+        gap: 20px;
+    }
+
+    .sign-and-info {
+        gap: 26px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 16px;
+    }
+    
+    .sign-and-info button {
+        height: 34px;
+        width: 140px;
+        font-size: 16px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 21px;
+    }
+    
+    .sign-and-info-anchor i {
+        font-size: 32px;
+    }
+    
+    .quick-links {
+        gap: 16px;
+    }
+    
+    .contact-footer {
+        gap: 16px;
+    }
+}
+
+/****************************************/
+/***** FOOTER - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .footer-part {
+        margin: 15px 15px;
+        gap: 15px;
+    }
+
+    .sign-and-info {
+        gap: 25px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 15px;
+    }
+    
+    .sign-and-info button {
+        height: 30px;
+        width: 130px;
+        font-size: 15px;
+    }
+    
+    .sign-and-info-anchor {
+        gap: 20px;
+    }
+    
+    .sign-and-info-anchor i {
+        font-size: 30px;
+    }
+    
+    .quick-links {
+        gap: 15px;
+    }
+    
+    .contact-footer {
+        gap: 15px;
+    }
+}

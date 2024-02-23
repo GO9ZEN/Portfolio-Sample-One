@@ -1,0 +1,113 @@
+.skill-card {
+    background: #11698E;
+    height: 180px;
+    width: 200px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in;
+}
+
+.skill-card img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/****************************************/
+/***** SKILLS - (0px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .skill-card {
+        height: 170px;
+        width: 180px;
+        border-radius: 28px;
+        gap: 18px;
+    }
+    
+    .skill-card img {
+        height: 95px;
+        width: 95x;
+    }
+}
+
+/****************************************/
+/***** SKILLS - (0px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .skill-card {
+        height: 160px;
+        width: 170px;
+        border-radius: 26px;
+        gap: 16px;
+    }
+    
+    .skill-card img {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+/****************************************/
+/***** SKILLS - (0px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .skill-card {
+        height: 150px;
+        width: 170px;
+        border-radius: 24px;
+        gap: 14px;
+    }
+    
+    .skill-card img {
+        height: 85px;
+        width: 85px;
+    }
+}
+
+/****************************************/
+/***** SKILLS - (0px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .skill-card {
+        height: 140px;
+        width: 146px;
+        border-radius: 22px;
+        gap: 12px;
+    }
+    
+    .skill-card img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .skill-card h4 {
+        font-size: 18px;
+    }
+}
+
+/****************************************/
+/***** SKILLS - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .skill-card {
+        height: 130px;
+        width: 130px;
+        border-radius: 20px;
+        gap: 10px;
+    }
+    
+    .skill-card img {
+        height: 75px;
+        width: 75px;
+    }
+}

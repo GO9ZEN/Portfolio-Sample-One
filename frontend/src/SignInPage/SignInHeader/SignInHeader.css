@@ -1,0 +1,83 @@
+/**********************************************************/
+/****************** HEADER-signIn ******************/
+/**********************************************************/
+.header-signIn {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: #1b1b1b;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+}
+
+.header-signIn-topic {
+    text-decoration: none;
+    margin-left: 50px;
+    cursor: pointer;
+    display: flex;
+}
+
+.header-signIn-topic h2 {
+    /* font-size: 32px; */
+    font-weight: bold;
+}
+
+.header-signIn-topic-one {
+    color: #11698E;
+    /* color: #589636; */
+}
+
+.header-signIn-topic-two {
+    /* color: #D61C4E; */
+    /* color: #D61C4E; */
+    /* color: #589636; */
+    /* color: #3c873a; */
+    color: #dd1b16;
+}
+
+/****************************************/
+/***** HEADER-signIn - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .header-signIn-topic {
+        margin-left: 40px;
+    }
+}
+
+/****************************************/
+/***** HEADER-signIn - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .header-signIn-topic {
+        margin-left: 30px;
+    }
+}
+
+/****************************************/
+/***** HEADER-signIn - (0px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .header-signIn {
+        height: 50px;
+        z-index: 2;
+    }
+
+    .header-signIn-topic {
+        margin-left: 20px;
+    }
+
+    .header-signIn-topic h2 {
+        font-size: 28px;
+    }
+}
+
+/****************************************/
+/***** HEADER-signIn - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .header-signIn-topic {
+        margin-left: 15px;
+    }
+}

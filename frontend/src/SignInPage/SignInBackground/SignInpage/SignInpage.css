@@ -1,0 +1,510 @@
+.sign-in-page {
+    min-height: 300px;
+    width: 400px;
+    background: #1b1b1b;
+    /* background: red; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-part {
+    /* background: red; */
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign-in-part h3 {
+    color: #dd1b16;
+}
+
+.login-topic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input-first {
+    z-index: 9;
+}
+
+.login-input-icon  {
+    position: absolute;
+    /* display: flex; */
+    margin-left: 300px;
+    z-index: 99;
+    cursor: pointer;
+    /* background: red; */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    border: 1px solid #e4e4e4;
+}
+
+.login-field, .login-field input {
+    width: 100%;
+    color: #000000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login-field input {
+    height: 50px;
+    display: flex;
+    z-index: 9;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+}
+
+.login-field i {
+    color: #000000;
+}
+
+.login-submit {
+    height: 30px;
+    width: 100%;
+    /* width: 100px; */
+    cursor: pointer;
+    background: #11698E;
+    border: 1px solid #11698E;
+    border-radius: 10px;
+    transition: 0.5s all ease-in;
+}
+
+.login-submit:hover {
+    background: #023e8a;
+    border: 1px solid #023e8a;
+    transition: 0.5s all ease-out;
+}
+
+.login-submit p {
+    color: #ffffff;
+}
+
+.checkbox-part {
+    display: flex;
+    gap: 6px;
+    /* cursor: pointer; */
+    /* background: red; */
+}
+
+.checkbox-part input, .checkbox-part label {
+    cursor: pointer;
+}
+
+.chekbox-password {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.checkbox-part {
+    display: flex;
+    align-items: center;
+}
+
+.forgot-password p {
+    cursor: pointer;
+    color: #11698E;
+    transition: 0.5s all ease-in;
+}
+
+.forgot-password p:hover {
+    color: #023e8a;
+    transition: 0.5s all ease-out;
+}
+
+.hr-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.hr-part hr {
+    width: 100%;
+}
+
+.sign-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sign-social-links i {
+    cursor: pointer;
+}
+
+.sign-social-links i:hover {
+    color: #11698E;
+}
+
+.sign-in-with {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.account-havent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.account-register {
+    color: #dd1b16;
+    cursor: pointer;
+}
+
+/****************************************/
+/***** HEADER - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .sign-in-page {
+        min-height: 260px;
+        width: 360px;
+        border-radius: 28px;
+    }
+    
+    .sign-in-part {
+        margin: 28px;
+        gap: 18px;
+    }
+    
+    .login-input-icon  {
+        margin-left: 270px;
+    }
+    
+    .login {
+        gap: 14px;
+    }
+    
+    .login-field, .login-field input {
+        border-radius: 9px;
+    }
+    
+    .login-field input {
+        height: 46px;
+        padding: 0 9px 0 9px;
+        font-size: 14px;
+    }
+    
+    .login-submit {
+        height: 28px;
+    }
+    
+    .checkbox-part {
+        gap: 6px;
+    }
+    
+    .chekbox-password {
+        gap: 9px;
+    }
+    
+    .hr-part {
+        gap: 6px;
+    }
+    
+    .sign-social-links {
+        gap: 28px;
+    }
+    
+    .sign-in-with {
+        gap: 19px;
+    }
+    
+    .account-havent {
+        gap: 6px;
+    }
+
+    .checkbox-part input[type="checkbox"] {
+        height: 12px;
+        width: 12px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .sign-in-page {
+        min-height: 220px;
+        width: 320px;
+        border-radius: 26px;
+    }
+    
+    .sign-in-part {
+        margin: 26px;
+        gap: 16px;
+    }
+    
+    .login-input-icon  {
+        margin-left: 240px;
+    }
+    
+    .login {
+        gap: 13px;
+    }
+    
+    .login-field, .login-field input {
+        border-radius: 8px;
+    }
+    
+    .login-field input {
+        height: 42px;
+        padding: 0 8px 0 8px;
+        font-size: 12px;
+    }
+    
+    .login-submit {
+        height: 26px;
+    }
+    
+    .checkbox-part {
+        gap: 6px;
+    }
+    
+    .chekbox-password {
+        gap: 8px;
+    }
+    
+    .hr-part {
+        gap: 6px;
+    }
+    
+    .sign-social-links {
+        gap: 26px;
+    }
+    
+    .sign-in-with {
+        gap: 18px;
+    }
+    
+    .account-havent {
+        gap: 6px;
+    }
+
+    .checkbox-part input[type="checkbox"] {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .sign-in-page {
+        min-height: 180px;
+        width: 280px;
+        border-radius: 24px;
+    }
+    
+    .sign-in-part {
+        margin: 24px;
+        gap: 14px;
+    }
+    
+    .login-input-icon  {
+        margin-left: 205px;
+    }
+    
+    .login {
+        gap: 12px;
+    }
+    
+    .login-field, .login-field input {
+        border-radius: 7px;
+    }
+    
+    .login-field input {
+        height: 38px;
+        padding: 0 7px 0 7px;
+        font-size: 10px;
+    }
+    
+    .login-submit {
+        height: 24px;
+    }
+    
+    .checkbox-part {
+        gap: 6px;
+    }
+    
+    .chekbox-password {
+        gap: 7px;
+    }
+    
+    .hr-part {
+        gap: 6px;
+    }
+    
+    .sign-social-links {
+        gap: 24px;
+    }
+    
+    .sign-in-with {
+        gap: 12px;
+    }
+    
+    .account-havent {
+        gap: 6px;
+    }
+
+    .checkbox-part input[type="checkbox"] {
+        height: 9px;
+        width: 9px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (0px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .sign-in-page {
+        min-height: 160px;
+        width: 260px;
+        border-radius: 22px;
+    }
+    
+    .sign-in-part {
+        margin: 22px;
+        gap: 12px;
+    }
+    
+    .login-input-icon  {
+        margin-left: 190px;
+    }
+    
+    .login {
+        gap: 11px;
+    }
+    
+    .login-field, .login-field input {
+        border-radius: 6px;
+    }
+    
+    .login-field input {
+        height: 34px;
+        padding: 0 5px 0 5px;
+        font-size: 9px;
+    }
+    
+    .login-submit {
+        height: 23px;
+    }
+    
+    .checkbox-part {
+        gap: 5px;
+    }
+    
+    .chekbox-password {
+        gap: 5px;
+    }
+    
+    .hr-part {
+        gap: 5px;
+    }
+    
+    .sign-social-links {
+        gap: 22px;
+    }
+    
+    .sign-in-with {
+        gap: 11px;
+    }
+    
+    .account-havent {
+        gap: 5px;
+    }
+
+    .checkbox-part input[type="checkbox"] {
+        height: 8px;
+        width: 8px;
+    }
+}
+
+/****************************************/
+/***** HEADER - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .sign-in-page {
+        min-height: 140px;
+        width: 240px;
+        border-radius: 20px;
+    }
+    
+    .sign-in-part {
+        margin: 20px;
+        gap: 10px;
+    }
+    
+    .login-input-icon  {
+        margin-left: 175px;
+    }
+    
+    .login {
+        gap: 10px;
+    }
+    
+    .login-field, .login-field input {
+        border-radius: 6px;
+    }
+    
+    .login-field input {
+        height: 30px;
+        padding: 0 4px 0 4px;
+        font-size: 8px;
+    }
+    
+    .login-submit {
+        height: 22px;
+    }
+    
+    .checkbox-part {
+        gap: 4px;
+    }
+    
+    .chekbox-password {
+        gap: 4px;
+    }
+    
+    .hr-part {
+        gap: 4px;
+    }
+    
+    .sign-social-links {
+        gap: 20px;
+    }
+    
+    .sign-in-with {
+        gap: 10px;
+    }
+    
+    .account-havent {
+        gap: 4px;
+    }
+
+    .checkbox-part input[type="checkbox"] {
+        height: 7px;
+        width: 7px;
+    }
+}

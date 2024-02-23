@@ -1,0 +1,205 @@
+/**********************************************************/
+/****************** projects-SECTION ******************/
+/**********************************************************/
+.projects-section {
+    display: flex;
+    min-height: 400px;
+    width: 100%;
+    background: #003F5C;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e4e4e4;
+    /* gap: 25px; */
+}
+
+.projects-part {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.projects-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e4e4e4;
+}
+
+.projects-header span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.swiper-project-part {
+    /* height: 300px;
+    background: red;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; */
+}
+
+.projectCard-part {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.swiper-projects {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 0;
+    /* background: red; */
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    border: #11698E solid 1px;
+    background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+    background-color: #11698E;
+}
+
+/****************************************/
+/***** projects-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .projects-section {
+        min-height: 350px;
+    }
+    
+    .projects-part {
+        gap: 36px;
+        width: 84%;
+        margin: 40px 0;
+    }
+    
+    .projects-header {
+        gap: 7px;
+    }
+    
+    .projects-header span {
+        font-size: 45px;
+    }
+
+    .projects-part-two {
+        gap: 40px;
+    }
+}
+
+/****************************************/
+/***** projects-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .projects-section {
+        min-height: 300px;
+    }
+    
+    .projects-part {
+        gap: 32px;
+        width: 88%;
+        margin: 30px 0;
+    }
+    
+    .projects-header {
+        gap: 6px;
+    }
+    
+    .projects-header span {
+        font-size: 40px;
+    }
+
+    .projects-part-two {
+        gap: 30px;
+    }
+}
+
+/****************************************/
+/***** projects-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .projects-section {
+        min-height: 250px;
+    }
+    
+    .projects-part {
+        gap: 28px;
+        width: 92%;
+        margin: 20px 0;
+    }
+    
+    .projects-header {
+        gap: 5px;
+    }
+    
+    .projects-header span {
+        font-size: 35px;
+    }
+
+    .projects-part-two {
+        gap: 20px;
+    }
+}
+
+/****************************************/
+/***** projects-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .projects-section {
+        min-height: 200px;
+    }
+    
+    .projects-part {
+        gap: 24px;
+        width: 96%;
+        margin: 15px 0;
+    }
+    
+    .projects-header {
+        gap: 4px;
+    }
+    
+    .projects-header span {
+        font-size: 25px;
+    }
+
+    .projects-part-two {
+        gap: 15px;
+    }
+}
+
+/****************************************/
+/***** projects-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .projects-section {
+        min-height: 150px;
+    }
+    
+    .projects-part {
+        gap: 20px;
+        width: 98%;
+        margin: 15px 0;
+    }
+    
+    .projects-header {
+        gap: 4px;
+    }
+    
+    .projects-header span {
+        font-size: 20px;
+    }
+
+    .projects-part-two {
+        gap: 15px;
+    }
+}

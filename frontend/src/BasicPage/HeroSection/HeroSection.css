@@ -1,0 +1,390 @@
+/**********************************************************/
+/****************** HERO-SECTION ******************/
+/**********************************************************/
+.hero-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* background: #11698E; */
+    color: #e4e4e4;
+    margin-top: 60px;
+}
+
+.particles {
+    background: #11698E;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.my-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    gap: 25px;
+}
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 4px solid #dd1b16;
+}
+
+.profile-picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.data-header span {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.data-header-writer {
+    font-weight: 600;
+    font-size: 40px;
+    color: #dd1b16;
+}
+
+.data-header-name {
+    color: #dd1b16;
+}
+
+.data-carrier span {
+    font-size: 30px;
+}
+
+.data-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.data-description span {
+    font-size: 20px;
+}
+
+.about-para-p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.show-more-button {
+    /* display: none; */
+    cursor: pointer;
+    font-size: 20px;
+    color: #dd1b16;
+    font-weight: 600;
+}
+
+.download-cv {
+    background: #dd1b16;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #dd1b16;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+
+.download-cv:hover {
+    transform: translateY(-2px);
+    background: #dd1b16;
+    box-shadow: 0 0 5px #dd1b16,
+                0 0 25px #dd1b16,
+                0 0 50px #dd1b16,
+                0 0 200px #dd1b16;
+}
+
+.social-links {
+    display: flex;
+    gap: 25px;
+}
+
+.social-links i {
+    font-size: 50px;
+    cursor: pointer;
+    color: #e4e4e4;
+    transition: all 0.4s ease;
+}
+
+.social-links i:hover {
+    transform: translateY(-2px);
+    color: #dd1b16;
+}
+
+/****************************************/
+/***** HERO-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .my-data {
+        gap: 23px;
+    }
+    
+    .profile-picture {
+        height: 140px;
+        width: 140px;
+        border-radius: 90px;
+    }
+    
+    .profile-picture img {
+        border-radius: 90px;
+    }
+    
+    .data-header span {
+        font-size: 36px;
+    }
+    
+    .data-header-writer {
+        font-size: 36px;
+    }
+    
+    .data-carrier span {
+        font-size: 28px;
+    }
+
+    .data-description span {
+        font-size: 18px;
+    }
+    
+    .download-cv {
+        padding: 18px 28px;
+        font-size: 22px;
+    }
+    
+    .social-links {
+        gap: 23px;
+    }
+    
+    .social-links i {
+        font-size: 46px;
+    }  
+
+    .data-description {
+        width: 60%;
+    }
+}
+
+/****************************************/
+/***** HERO-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .my-data {
+        gap: 21px;
+    }
+    
+    .profile-picture {
+        height: 130px;
+        width: 130px;
+        border-radius: 80px;
+    }
+    
+    .profile-picture img {
+        border-radius: 80px;
+    }
+    
+    .data-header span {
+        font-size: 32px;
+    }
+    
+    .data-header-writer {
+        font-size: 32px;
+    }
+    
+    .data-carrier span {
+        font-size: 26px;
+    }
+
+    .data-description span {
+        font-size: 16px;
+    }
+    
+    .download-cv {
+        padding: 16px 26px;
+        font-size: 20px;
+    }
+    
+    .social-links {
+        gap: 21px;
+    }
+    
+    .social-links i {
+        font-size: 42px;
+    }  
+
+    .data-description {
+        width: 70%;
+    }
+}
+
+/****************************************/
+/***** HERO-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .hero-section {
+        margin-top: 50px;
+    }
+
+    .my-data {
+        gap: 19px;
+    }
+    
+    .profile-picture {
+        height: 120px;
+        width: 120px;
+        border-radius: 70px;
+    }
+    
+    .profile-picture img {
+        border-radius: 70px;
+    }
+    
+    .data-header span {
+        font-size: 28px;
+    }
+    
+    .data-header-writer {
+        font-size: 28px;
+    }
+    
+    .data-carrier span {
+        font-size: 22px;
+    }
+
+    .data-description span {
+        font-size: 16px;
+    }
+    
+    .download-cv {
+        padding: 14px 24px;
+        font-size: 18px;
+    }
+    
+    .social-links {
+        gap: 19px;
+    }
+    
+    .social-links i {
+        font-size: 38px;
+    }  
+
+    .data-description {
+        width: 80%;
+    }
+}
+
+/****************************************/
+/***** HERO-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .my-data {
+        gap: 15px;
+    }
+    
+    .profile-picture {
+        height: 110px;
+        width: 110px;
+        border-radius: 60px;
+    }
+    
+    .profile-picture img {
+        border-radius: 60px;
+    }
+    
+    .data-header span {
+        font-size: 24px;
+    }
+    
+    .data-header-writer {
+        font-size: 24px;
+    }
+    
+    .data-carrier span {
+        font-size: 18px;
+    }
+
+    .data-description span {
+        font-size: 14px;
+    }
+    
+    .download-cv {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .social-links {
+        gap: 15px;
+    }
+    
+    .social-links i {
+        font-size: 30px;
+    } 
+
+    .data-description {
+        width: 90%;
+    }
+}
+
+/****************************************/
+/***** HERO-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .my-data {
+        gap: 13px;
+    }
+    
+    .profile-picture {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+    }
+    
+    .profile-picture img {
+        border-radius: 50px;
+    }
+    
+    .data-header span {
+        font-size: 20px;
+    }
+    
+    .data-header-writer {
+        font-size: 20px;
+    }
+    
+    .data-carrier span {
+        font-size: 16px;
+    }
+
+    .data-description span {
+        font-size: 12px;
+    }
+    
+    .download-cv {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+    
+    .social-links {
+        gap: 13px;
+    }
+    
+    .social-links i {
+        font-size: 28px;
+    } 
+
+    .data-description {
+        width: 90%;
+    }
+}
